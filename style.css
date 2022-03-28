@@ -1,0 +1,59 @@
+*{
+	font-size: 1rem;
+	color: #eee;
+	/*background-color: #222;*/
+}
+
+input{
+	background-color: #333;
+	text-align: center;
+	margin-top: 0.4rem;
+}
+
+input[type=color]{
+	background-color: #ddd;
+}
+
+#main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(
+		20deg,
+		hsl(0, 0%, 0%),
+		hsl(180deg, 50%, 13%));
+	height: 100vh;
+	animation-name: glow;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: 0;
+		/*filter: hue-rotate(80deg);*/
+}
+
+@keyframes glow{
+	from{
+		filter: hue-rotate(0);
+	}
+	to{
+		filter: hue-rotate(360deg);
+	}
+}
+
+#diapazon{
+	border-radius: 0.7rem;
+}
+
+h1{
+	text-align: center;
+	font-size: 3rem;
+	text-shadow: 0 0 40px #f75;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+#main{
+	margin: 0;
+}
