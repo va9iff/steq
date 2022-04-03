@@ -24,7 +24,7 @@ input[type=color]{
 		hsl(0, 0%, 0%),
 		hsl(180deg, 50%, 13%));
 	height: 100vh;
-	animation-name: glow;
+/* 	animation-name: glow; */
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	animation-delay: 0;
